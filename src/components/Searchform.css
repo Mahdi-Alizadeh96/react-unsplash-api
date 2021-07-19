@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url(Raleway-Italic-VariableFont_wght.ttf);
+}
+body {
+    background-color: whitesmoke;
+}
+*{
+    outline: 0ch;
+    box-sizing: border-box;
+    font-family: Raleway;
+    transition: 0.3s;
+}
+.header {
+    text-align: center;
+    color: gray;
+}
+.header:hover {
+    color: green;
+}
+.Searchform {
+    display: flex;
+    padding: 20px 30px;
+}
+.Searchform input {
+    background-color: whitesmoke;
+    width: 100%;
+    outline: none;
+    margin-right: 10px;
+    border: none;
+    appearance: none;
+    border-bottom: 1px solid gray;
+}
+.Searchform input:hover {
+    transform: scale(1.005);
+}
+.Searchform input:focus {
+    transform: scale(1.005);
+    border-bottom: 1px solid green;
+}
+.Searchform button {
+    width: 140px;
+    height: 50px;
+    border: 1px solid gray;
+    background-color: whitesmoke;
+    color: gray;
+    border-radius: 10px;
+}
+.Searchform button:hover {
+    box-shadow: 0px 0px 5px rgb(199, 199, 199);
+    cursor: pointer;
+}
+.Searchform button:focus {
+    border: 1px solid green;
+    color: green;
+}
+.image-list {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: 5px;
+    gap: 5px;
+
+}
+.image-list .image-card {
+    background-color: yellow;
+    margin-bottom: 7px;
+}
+
+.image-list .image-card img {
+    width: 100%;
+}
