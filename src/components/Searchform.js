@@ -22,7 +22,7 @@ class Seachform extends React.Component {
             <div>
                 <h1 className={'header'}>Unsplash React Search</h1>
                 <div className={'Searchform'}>
-                    <input value={this.state.term} onChange={this.searchFormChange} type={'text'} placeholder={'Search Anythings you want'} />
+                    <input value={this.state.term} onChange={this.searchFormChange} type={'text'} placeholder={'Search Anythings you want baby'} />
                     <button onClick={this.submitButton}>Search Photos</button>
                 </div>
             </div>
